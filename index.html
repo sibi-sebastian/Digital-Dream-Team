@@ -1,185 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="form.css">
-    <title>Survey Form</title>
+    <title>Coursera</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #cc2a68;
+            padding: 20px;
+            color: #fff;
+        }
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        nav {
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            padding: 5px;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        h2 {
+            color: #333333;
+        }
+        .course-card {
+            background-color: #f2f2f2;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .course-card h3 {
+            margin: 0;
+        }
+        footer {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
-
 <body>
-    <div class="container ">
-        <header class="header">
-            <h1 id="title">
-                Survey from DTeam
-            </h1>
-        </header>
-        <form action="" id="survey-form">
-
-
-
-
-            <!-- radio button section -->
-            <div class="form-group">
-                <p id="quest">What are your strengths as a student??</p>
-                <label for="">
-                    <input type="radio" name="source" value="freinds"
-                    class="inputRadio"
-                    checked> Verbal skills
-                </label>
-                <label for="">
-                    <input type="radio" name="source" value="tv-ads"
-                    class="inputRadio"
-                    >logical thinking 
-                </label>
-                <label for="">
-                    <input type="radio" name="source" value="social-media"
-                    class="inputRadio"
-                    > creativity 
-                </label>
-                <label for="">
-                    <input type="radio" name="source" value="newspaper"
-                    class="inputRadio"
-                    > listening skills
-                </label>
-                <label for="">
-                    <input type="radio" name="source" value="other"
-                    class="inputRadio"
-                    > Other
-                </label>
-            </div>
-            <!-- end of radio button -->
-            <!-- radio button section -->
-            <div class="form-group">
-                <p id="quest">What are your goals for your studies?</p>
-                <label for="">
-                    <input type="radio" name="source" value="freinds"
-                    class="inputRadio"
-                    checked> improving my skills
-                </label>
-                <label for="">
-                    <input type="radio" name="source" value="tv-ads"
-                    class="inputRadio"
-                    > getting a job
-                </label>
-                <label for="">
-                    <input type="radio" name="source" value="social-media"
-                    class="inputRadio"
-                    > soial media promoter 
-                </label>
-                <label for="">
-                    <input type="radio" name="source" value="newspaper"
-                    class="inputRadio"
-                    > Game developer
-                </label>
-                <label for="">
-                    <input type="radio" name="source" value="other"
-                    class="inputRadio"
-                    > Other
-                </label>
-            </div>
-            <!-- end of radio button -->
-            <!-- radio button section -->
-            <div class="form-group">
-                <p id="quest">What are your study habits?</p>
-                <label for="">
-                    <input type="radio" name="source" value="freinds"
-                    class="inputRadio"
-                    checked> pomodoro
-                </label>
-                <label for="">
-                    <input type="radio" name="source" value="tv-ads"
-                    class="inputRadio"
-                    >listening music 
-                </label>
-                <label for="">
-                    <input type="radio" name="source" value="social-media"
-                    class="inputRadio"
-                    >  late night
-                </label>
-                <label for="">
-                    <input type="radio" name="source" value="newspaper"
-                    class="inputRadio"
-                    > early morning
-                </label>
-                <label for="">
-                    <input type="radio" name="source" value="other"
-                    class="inputRadio"
-                    > Other
-                </label>
-            </div>
-            <!-- end of radio button -->
-            <!-- radio button section -->
-            <div class="form-group">
-                <p id="quest">What are your biggest challenges in your studies?</p>
-                <label for="">
-                    <input type="radio" name="source" value="freinds"
-                    class="inputRadio"
-                    checked> low marks
-                </label>
-                <label for="">
-                    <input type="radio" name="source" value="tv-ads"
-                    class="inputRadio"
-                    >Time management
-                </label>
-                <label for="">
-                    <input type="radio" name="source" value="social-media"
-                    class="inputRadio"
-                    >  Social media
-                </label>
-                <label for="">
-                    <input type="radio" name="source" value="newspaper"
-                    class="inputRadio"
-                    > Overconfidence
-                </label>
-                <label for="">
-                    <input type="radio" name="source" value="other"
-                    class="inputRadio"
-                    > Other
-                </label>
-            </div>
-            <!-- end of radio button -->
-            <!-- radio button section -->
-            <div class="form-group">
-                <p id="quest">How much time would you like to spend on studies?</p>
-                <label for="">
-                    <input type="radio" name="source" value="tv-ads"
-                    class="inputRadio"
-                    >15 min
-                </label>
-                <label for="">
-                    <input type="radio" name="source" value="social-media"
-                    class="inputRadio"
-                    > 30 min
-                </label>
-                <label for="">
-                    <input type="radio" name="source" value="newspaper"
-                    class="inputRadio"
-                    > 45 min
-                </label>
-                <label for="">
-                    <input type="radio" name="source" value="other"
-                    class="inputRadio"
-                    > 60 min
-                </label>
-                <label for="">
-                    <input type="radio" name="source" value="other"
-                    class="inputRadio"
-                    > Other
-                </label>
-            </div>
-            <!-- end of radio button -->
-
-
-
-
-            <div class="form-group">
-                <button type="submit" id="submit" class="btn">Submit</button>
-            </div>
-        </form>
+    <header>
+        <h1>EDUCATE</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <img src="1619760916405.jpg" alt="kulal" class="my-image">
+    <div class="course-card">
+        <p>Hello,</p> <h3>KULAL</h3>
     </div>
+   
+    <style>
+         img {
+        margin: 20px;
+        border-radius: 50%;
+        clip-path: circle(40%);
+          }
+        .my-image {
+            display: block;        /* Ensures the image is treated as a block-level element */
+            margin: 20px;
+            shape-image-threshold: round;        /* Sets left and right margins to auto, centering the image horizontally */
+            text-align: center;
+            width: 200px;  /* Adjust the width as desired */
+            height: 300px;  /* Maintain aspect ratio */
+        }
+    </style>
+    <main>
+        <h2>Your Courses</h2>
+        <div class="course-card">
+            <h3>Course 1</h3>
+            <p>This is the description of Course 1.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="course-card">
+            <h3>Course 2</h3>
+            <p>This is the description of Course 2.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="course-card">
+            <h3>Course 3</h3>
+            <p>This is the description of Course 3.</p>
+            <a href="#">Learn More</a>
+        </div>
+    </main>
+    <footer>
+    </footer>
 </body>
-
 </html>
